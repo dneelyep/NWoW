@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWoW", "NWoW\NWoW.csproj", "{678C10A1-EDF5-44AE-A5DA-EB5C2FB0C022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWoWClient", "NWoWClient\NWoWClient.csproj", "{DAC3ED00-04B4-4F28-ACAE-A63A1F0F8AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
