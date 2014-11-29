@@ -34,7 +34,7 @@
             this.cbObjectType = new System.Windows.Forms.ComboBox();
             this.lblCharacterName = new System.Windows.Forms.Label();
             this.lblServer = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbServer = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblObjectType
@@ -61,6 +61,7 @@
             this.btnGetObject.TabIndex = 3;
             this.btnGetObject.Text = "Get object";
             this.btnGetObject.UseVisualStyleBackColor = true;
+            this.btnGetObject.Click += new System.EventHandler(this.btnGetObject_Click);
             // 
             // cbObjectType
             // 
@@ -90,20 +91,20 @@
             this.lblServer.TabIndex = 5;
             this.lblServer.Text = "Server:";
             // 
-            // comboBox1
+            // cbServer
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(103, 65);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 2;
+            this.cbServer.FormattingEnabled = true;
+            this.cbServer.Location = new System.Drawing.Point(103, 65);
+            this.cbServer.Name = "cbServer";
+            this.cbServer.Size = new System.Drawing.Size(169, 21);
+            this.cbServer.TabIndex = 2;
             // 
             // frmNWoWClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 151);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbServer);
             this.Controls.Add(this.lblServer);
             this.Controls.Add(this.lblCharacterName);
             this.Controls.Add(this.cbObjectType);
@@ -125,6 +126,6 @@
         private System.Windows.Forms.ComboBox cbObjectType;
         private System.Windows.Forms.Label lblCharacterName;
         private System.Windows.Forms.Label lblServer;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbServer;
     }
 }
